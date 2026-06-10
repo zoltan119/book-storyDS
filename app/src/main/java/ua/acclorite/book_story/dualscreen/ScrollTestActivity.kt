@@ -1,15 +1,13 @@
+/*
+ * Step 0 scratch test — NOT part of the shipping app.
+ * Proves whether two LazyColumns on two physical displays can follow one scroll
+ * position. Self-contained: no Hilt, no Navigator, no reader code.
+ *
+ * Launch directly with:
+ *   adb shell am start -n ua.acclorite.book_story/ua.acclorite.book_story.dualscreen.ScrollTestActivity
+ */
+
 package ua.acclorite.book_story.dualscreen
-<!-- Step 0 scroll-sync test (scratch, not for release) -->
-        <activity
-            android:name=".dualscreen.ScrollTestActivity"
-            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|locale|density|uiMode"
-            android:exported="true"
-            android:theme="@style/BookStory">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
 
 import android.app.Presentation
 import android.os.Bundle
