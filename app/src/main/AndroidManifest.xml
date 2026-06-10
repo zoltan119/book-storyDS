@@ -42,10 +42,7 @@
             android:exported="true"
             android:theme="@style/Splash"
             android:windowSoftInputMode="adjustResize">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+           
         </activity>
 
         <!-- Step 0 scroll-sync test (scratch, not for release) -->
