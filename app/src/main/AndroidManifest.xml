@@ -48,6 +48,13 @@
             </intent-filter>
         </activity>
 
+        <!-- Step 0 scroll-sync test (scratch, not for release) -->
+        <activity
+            android:name=".dualscreen.ScrollTestActivity"
+            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|locale|density|uiMode"
+            android:exported="true"
+            android:theme="@style/BookStory" />
+
         <!-- Crash activity -->
         <activity
             android:name=".presentation.crash.CrashActivity"
