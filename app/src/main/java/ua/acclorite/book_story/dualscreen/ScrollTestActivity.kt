@@ -1,3 +1,4 @@
+package ua.acclorite.book_story.dualscreen
 <!-- Step 0 scroll-sync test (scratch, not for release) -->
         <activity
             android:name=".dualscreen.ScrollTestActivity"
@@ -9,7 +10,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-package ua.acclorite.book_story.dualscreen
 
 import android.app.Presentation
 import android.os.Bundle
